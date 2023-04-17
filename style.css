@@ -15,6 +15,11 @@ body {
   color: #F9FAF8;
 }
 
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
 .logo {
   margin-right: auto;
 }
@@ -27,7 +32,7 @@ body {
   justify-content: space-between;
   padding: 50px 0;
   background-color: #1F2937;
-  padding: 15px;
+  gap: 30px;
 }
 
 .description {
@@ -35,7 +40,11 @@ body {
   font-size: 18px;
 }
 
-h1 {
+.intro-d {
+  padding: 16px 0px 10px;
+}
+
+.intro-t {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
@@ -43,7 +52,8 @@ h1 {
 
 .info {
   text-align: center;
-  padding: 70px 35%;
+  width: 99vw;
+  padding: 20px 0 30px;
   background-color: #FFFFFF;
 }
 
@@ -57,15 +67,20 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 25px;
-}
-
-p {
-  display: flex;
   flex-wrap: wrap;
 }
 
+p {
+text-align: center;
+}
+
+.info-page {
+  width: 200px;
+}
+
 .testimonial {
-  padding: 70px 90px;
+  width: 99vw;
+  padding: 70px 0;
   background-color: #E5E7EB;
 }
 
@@ -92,9 +107,21 @@ p {
   color: #F9FAF8;
 }
 
+h3 {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
 button {
   background-color: #3882F6;
   color: #F9FAF8;
+  padding: 6px 20px;
+}
+
+.button-top {
+  border: none;
+}
+
+.button-bottom {
   border: 3px solid #F9FAF8;
-  padding: 6px 10px;
 }
