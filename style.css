@@ -90,14 +90,18 @@ text-align: center;
 }
 
 .test-text {
-  width: 40%;
-  margin: 0 30%;
+  width: 60%;
+  margin: 0 20%;
+  font-size: 36px;
+  font-weight: light;
 }
 
 .name {
   text-align: right;
-  width: 40%;
-  margin: 0 30%;
+  width: 60%;
+  margin: 0 20%;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bottom {
