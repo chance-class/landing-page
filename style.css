@@ -2,12 +2,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1F2937;
+  background-color:#FFFFFF;
 }
 
 .header {
   width: 70%;
-  padding: 16px 0;
+  padding: 16px 15%;
   display: flex;
   justify-content: flex-end;
   gap: 20px;
@@ -26,13 +26,12 @@ a {
 
 .intro {
   box-sizing: border-box;
-  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 0;
+  padding: 50px 15%;
   background-color: #1F2937;
-  gap: 30px;
+  gap: 60px;
 }
 
 .description {
@@ -84,7 +83,6 @@ text-align: center;
 }
 
 .testimonial {
-  width: 99vw;
   padding: 70px 0;
   background-color: #E5E7EB;
 }
